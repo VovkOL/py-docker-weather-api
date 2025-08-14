@@ -3,7 +3,7 @@ import os
 import requests
 
 
-API_KEY = os.environ.get("WEATHER_API_KEY")
+API_KEY = os.environ.get("API_KEY")
 API_URL = "https://api.weatherapi.com/v1/current.json?"
 CITY_NAME = "Paris"
 
